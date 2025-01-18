@@ -4,7 +4,7 @@ body{
     background-color: black;
 }
 .logo{
-    background: linear-gradient(#03fc5a,#03adfc);
+    background-color: lightgray;
     border-radius: 20px;
     border: 3px solid black;
     padding: 15px;
@@ -30,15 +30,20 @@ header{
     padding: 5px;
     margin: 5px;
     display: flex;
-    background: linear-gradient(#03fc5a,#03adfc);
+    background-color: darkcyan;
     color: red;
+}
+main{
+   margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
 }
 .items{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    gap: 70px;
-   margin: 100px;
 }
 .item{
     display: flex;
@@ -80,4 +85,87 @@ header{
     width: fit-content;
     font-size: 20px;
     background-image: linear-gradient();
+}
+.search{
+    border-radius: 20px;
+    border: 3px solid blue;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    background-color: darkslategray;
+    font-size: 30px;
+    color: gold;
+}
+.cart-heading{
+    margin: 0;
+    color: white;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-item-middle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.cart-item-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.cart-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.cart-item h2{
+    font-size: 20px;
+}
+.cart-item p{
+    font-size: 30px;
+}
+.cart-item span{
+    font-size: 23px;
+}
+.quantity-input{
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.total{
+    font-size: 25px;
+    color: white;
+}
+.total-price{
+    color: ;
+}
+.confirm-button{
+    border-radius: 20px;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    width: fit-content;
+    background-color: ;
+    font-size: 20px;
+}
+footer{
+    background-color: ;
+    padding: 30px;
+    color: ;
+    font-size: 25px;
 }
